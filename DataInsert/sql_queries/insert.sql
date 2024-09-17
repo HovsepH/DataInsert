@@ -65,28 +65,29 @@ VALUES
 ('person9', 'person99', '2024-09-17 12:00:00'),
 ('person10', 'person1010', '2024-09-17 12:00:00');
 
-INSERT INTO person_contact (person_id, contact_type_id)
+INSERT INTO person_contact (person_id, contact_type_id, contact_value)
 VALUES
-(1, 1),
-(1, 2),
-(2, 1),
-(2, 2),
-(3, 1),
-(3, 2),
-(4, 1),
-(4, 2),
-(5, 1),
-(5, 2),
-(6, 1),
-(6, 2),
-(7, 1),
-(7, 2),
-(8, 1),
-(8, 2),
-(9, 1),
-(9, 2),
-(10, 1),
-(10, 2);
+(1, 1, 'contact1@example.com'),
+(1, 2, '+1234567890'),
+(2, 1, 'contact2@example.com'),
+(2, 2, '+1234567891'),
+(3, 1, 'contact3@example.com'),
+(3, 2, '+1234567892'),
+(4, 1, 'contact4@example.com'),
+(4, 2, '+1234567893'),
+(5, 1, 'contact5@example.com'),
+(5, 2, '+1234567894'),
+(6, 1, 'contact6@example.com'),
+(6, 2, '+1234567895'),
+(7, 1, 'contact7@example.com'),
+(7, 2, '+1234567896'),
+(8, 1, 'contact8@example.com'),
+(8, 2, '+1234567897'),
+(9, 1, 'contact9@example.com'),
+(9, 2, '+1234567898'),
+(10, 1, 'contact10@example.com'),
+(10, 2, '+1234567899');
+
 
 INSERT INTO customer (person_id, card_number, discount)
 VALUES
